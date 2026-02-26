@@ -1,82 +1,203 @@
+import React from "react";
+
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Murilo Machado — MLOps | Platform Engineer | DevSecOps",
+		name: "Murilo Machado",
+		email: "murilo.paula.machado@gmail.com",
+		logo: "murilo_avatar.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/murilopmachado",
+		linkedin: "https://www.linkedin.com/in/murilomachado/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "MLOps, Platform Engineer & DevSecOps, building secure AI infrastructure on-premise.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"With 15+ years of IT experience, my career has evolved from Software Development, QA, and Pentesting to scaling my own physical IT training school into a successful consultancy. Today I architect secure on-premise GPU clusters (DGX), deploy LLM hosting solutions (vLLM, Open WebUI), and build open-source synthetic data pipelines, leveraging my deep foundation in cloud-native infrastructure and secure SDLC to deliver production-ready AI environments. Recently, I secured a FULL WBSO grant from the Netherlands Enterprise Agency (RVO) for 3,000 R&D hours in AI.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Hey, I'm Murilo Machado — born in Brazil, living in the Netherlands.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I turn infrastructure complexity into competitive advantage. With 15+ years across QA, Pentesting, DevSecOps, and Platform Engineering, I specialise in MLOps at scale — designing secure on-premise GPU clusters, deploying production LLM stacks, and engineering synthetic data pipelines from the ground up. I've grown and sold a technical training company, led enterprise security programmes across Fintech and Retail, and recently secured a full WBSO R&D grant for 3,000h of applied AI research.",
+		cta:
+			"If I can be of service to your project, or if you are building something where you think your services could benefit me, I'd love to connect. (Note: I am not looking for offshore or outsourced engineering agencies.)",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Pushing the boundaries of AI infrastructure, security, and synthetic data generation.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Thoughts on MLOps, Platform Engineering, DevSecOps, AI R&D, and the intersection of security and modern infrastructure.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Quail — AI Platform @ spriteCloud",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Private LLM platform built for a software testing consultancy. Architected the full stack: NVIDIA DGX Spark setup, multi-model hosting (Ollama, vLLM), Firecrawl, Qdrant, Open WebUI, and Netbird-secured networking. Designed the synthetic data pipeline for training a domain-specific testing model, implemented ISO 27001 controls, ran threat modelling (DFDs, attack trees), and delivered the full CI/CD and secrets pipeline. WBSO-funded R&D project.",
+			logo: "quail.png",
+			category: "venture",
+			startYear: 2024,
+			endYear: null,
+			clients: [
+				{ name: "spriteCloud", logo: "spritecloud.png" },
+			],
 		},
 
 		{
-			title: "Project 2",
+			title: "Offensive Security & Penetration Testing",
+			description: (
+				<React.Fragment>
+					<p>
+						<strong>Security Researcher (Private & spriteCloud)</strong>
+						<br />
+						Extensive experience conducting black-box and gray-box penetration tests for high-compliance clients (Government, Fintech, Retail), following PTES standards. Utilizing modern scanners (Caido, Burp Suite, Naabu, DeepHat AI) and custom Python exploit chains to deeply map attack surfaces and uncover whatever vulnerabilities are present. Notable cases include discovering and remediating critical ATOs and Privilege Escalation vectors in enterprise infrastructure.
+					</p>
+					<p>
+						<strong>Elite Network of Brazilian Security Researchers</strong>
+						<br />
+						Beyond securing web, backend, and SaaS environments myself, I maintain a trusted network of elite security researchers in Brazil. Whether you need a solo pentester or a specialized team to comprehensively test e-commerce platforms, IoT devices, or hardware, I can assemble the right talent for your project.
+					</p>
+				</React.Fragment>
+			),
+			logo: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f575.png",
+			category: "venture",
+			startYear: 2019,
+			endYear: "Present",
+			clients: [
+				{ name: "spriteCloud", logo: "spritecloud.png" },
+				{ name: "Nubank", logo: "Nubank_logo.svg" },
+				{ name: "Neon", logo: "Neon_logo_2021.png" },
+				{ name: "PagSeguro", logo: "Logonovo_pagseguro-cinza.png" },
+				{ name: "Natura", logo: "natura.png" },
+				{ name: "PicPay", logo: "picpay-1.svg" },
+				{ name: "Suzano", logo: "suzano.png" },
+				{ name: "Melitta", logo: "melitta.svg" },
+				{ name: "Instituto Oswaldo Cruz", logo: "oswaldo_cruz.png" },
+				{ name: "Folha de S.Paulo", logo: "folha_logo.png" },
+			],
+			isPublic: false,
+			linkText: null,
+			link: null,
+		},
+
+		{
+			title: "VilasBoas — IT Academy & Consultancy",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Founded an IT training operation in Brazil from the ground up, developing 2,000+ engineers across QA, development, and infrastructure — then scaled it into VilasBoas, a technology consultancy serving enterprise clients across retail, fintech, and telco.",
+			logo: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f393.png",
+			category: "venture",
+			startYear: 2016,
+			endYear: 2018,
+			clients: [
+				{ name: "AB-InBev", logo: "abinbev.webp" },
+				{ name: "Nextel", logo: "nextel.svg" },
+				{ name: "Via", logo: "via.png" },
+				{ name: "CVC", logo: "cvc.webp" },
+				{ name: "Magalu", logo: "magalu.png" },
+				{ name: "Evino", logo: "evino.png" },
+			],
+		},
+
+		{
+			title: "aigate — AI Security Sandbox",
+			description:
+				"OS-level sandbox in Go for AI coding agents (Claude Code, Cursor, Copilot). Kernel-enforced file, process, and network isolation via Linux mount namespaces, POSIX ACLs, and cgroups v2. Ensures GDPR/ISO compliance during AI-assisted development.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
+			category: "technical",
+			isPublic: true,
+			linkText: "View on GitHub",
+			link: "https://github.com/murilopmachado",
+		},
+
+		{
+			title: "SpecHammer — Kubernetes Testing",
+			description:
+				"Internal Go-based validation framework for Kubernetes Kustomize and Helm manifests. Tests infrastructure-as-code against custom YAML assertions to enforce security, performance, and compliance policies pre-deployment.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
+			category: "technical",
+			isPublic: false,
+			linkText: null,
+			link: null,
+		},
+
+		{
+			title: "yankrun — Templating Engine",
+			description:
+				"CLI scaffolding tool for secure repository cloning and dynamic template value replacement, with customizable delimiters, size-based parsing limits, and built-in transformation functions.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
+			category: "technical",
+			isPublic: true,
+			linkText: "View on GitHub",
+			link: "https://github.com/murilopmachado",
+		},
+
+		{
+			title: "structlint — CI/CD Linter",
+			description:
+				"Internal Go-based CLI tool that validates directory structures and file naming conventions inside CI/CD pipelines, creating reliable context boundaries for AI tooling and enforcing project consistency at scale.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
+			category: "technical",
+			isPublic: false,
+			linkText: null,
+			link: null,
+		},
+
+		{
+			title: "ParseCraft & pb — CLI Utilities",
+			description:
+				"Cross-format parser (JSON, YAML, Markdown) leveraging gojq for advanced querying, plus a cross-platform (Linux/macOS/Windows) clipboard CLI utility for terminal piping integrated with X11/Wayland.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
+			category: "technical",
+			isPublic: true,
+			linkText: "View on GitHub",
+			link: "https://github.com/murilopmachado",
+		},
+
+		{
+			title: "Pretest — Ruby Testing Library",
+			description:
+				"Co-authored a Ruby testing library ('pretest' gem) focused on providing an intuitive and fluent interface for assertions and unit testing in Ruby applications.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
+			linkText: "View Gem",
+			link: "https://rubygems.org/gems/pretest/versions/1.12.0?locale=en",
+			category: "technical",
+			isPublic: true,
+		},
+		{
+			title: "Topic-Lode: Production AI Dataset Miner",
+			description:
+				"A production-grade synthetic data generation pipeline for creating high-quality, technically accurate datasets for LLM fine-tuning. Features Knowledge Mining for deep Q&A and Agentic Mode for tool-use/function-calling training.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "View on GitHub",
+			link: "https://github.com/murilopmachado",
+			category: "technical",
+			isPublic: true,
 		},
 
 		{
-			title: "Project 3",
+			title: "EMTP — Expert Model Training Pipeline",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A comprehensive pipeline for acquiring and preparing QA data for training expert AI models. Uses DuckDuckGo search dorks, Firecrawl API for direct markdown extraction, handles Unicode normalization, and features a clean modular architecture.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View on GitHub",
+			link: "https://github.com/murilopmachado",
+			category: "technical",
+			isPublic: true,
 		},
 
 		{
-			title: "Project 4",
+			title: "ReviewForge — AI Code Reviewer",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"An AI-powered code reviewer with personality (GitHub Action & CLI). Reviews PRs using OpenAI, Anthropic, or Gemini, posting line-level comments with severity levels, review verdicts, learning reports for developer growth, and customizable reviewer personas.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
+			linkText: "View on GitHub",
+			link: "https://github.com/murilopmachado",
+			category: "technical",
+			isPublic: true,
 		},
 	],
 };

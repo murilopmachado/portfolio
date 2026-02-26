@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import CvDownload from "../components/about/cvDownload";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -27,6 +28,29 @@ const About = () => {
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
+				<script type="application/ld+json">
+					{`
+						{
+							"@context": "https://schema.org",
+							"@type": "Person",
+							"name": "${INFO.main.name}",
+							"jobTitle": "MLOps & Platform Engineer",
+							"alumniOf": "VilasBoas",
+							"knowsAbout": [
+								"MLOps",
+								"DevSecOps",
+								"Platform Engineering",
+								"Offensive Security",
+								"Penetration Testing",
+								"GPU Infrastructure",
+								"Synthetic Data Generation"
+							],
+							"description": "DevSecOps and AI platform engineer based in the Netherlands. Currently building secure DGX clusters and synthetic data pipelines.",
+							"email": "${INFO.main.email}",
+							"url": "https://murilopmachado.github.io"
+						}
+					`}
+				</script>
 			</Helmet>
 
 			<div className="page-content">
@@ -48,14 +72,20 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+
+								<div className="about-cta">
+									{INFO.about.cta}
+								</div>
+
+								<CvDownload />
 							</div>
 
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
-											alt="about"
+											src="murilo_portrait.jpg"
+											alt="Murilo Machado"
 											className="about-image"
 										/>
 									</div>

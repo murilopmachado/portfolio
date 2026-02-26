@@ -1,0 +1,65 @@
+.venture-years {
+    display: inline-flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--link-color);
+    opacity: 0.85;
+}
+
+.venture-clients {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.venture-client-chip {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--secondary-color);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.venture-client-logo {
+    height: 28px;
+    width: auto;
+    max-width: 120px;
+    object-fit: contain;
+    filter: grayscale(1) brightness(2);
+    opacity: 0.55;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.venture-client-logo:hover {
+    filter: grayscale(0) brightness(1);
+    opacity: 1;
+}
+
+/* Make Quail logo a circle */
+.project-logo img[src*="quail.png"] {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Folha logo has black text — needs white background on hover to be legible */
+.venture-client-logo[src*="folha_logo"] {
+    border-radius: 4px;
+    transition: filter 0.2s ease, opacity 0.2s ease, background 0.2s ease, padding 0.2s ease;
+}
+
+.venture-client-logo[src*="folha_logo"]:hover {
+    background: #ffffff;
+    padding: 3px 6px;
+    filter: none;
+    opacity: 1;
+}

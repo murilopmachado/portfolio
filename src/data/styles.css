@@ -1,11 +1,16 @@
 :root {
-	/* ------- colors ------- */
-	--primary-color: #27272a;
-	--secondary-color: #65656d;
-	--tertiary-color: #acacb4;
-	--quaternary-color: #e4e4e7;
-	--link-color: #14b8a6;
-	/* ---------------------- */
+	/* ------- colors (brasa.ai palette) ------- */
+	--primary-color: #f5f5f5;
+	/* headings / primary text   */
+	--secondary-color: #9a9a9a;
+	/* body / secondary text     */
+	--tertiary-color: #2e2e2e;
+	/* borders / dividers        */
+	--quaternary-color: #111111;
+	/* card / surface background */
+	--link-color: #ea4e00;
+	/* orange accent             */
+	/* ---------------------------------------- */
 
 	/* ------- fonts ------- */
 	--primary-font: "Heebo", sans-serif;

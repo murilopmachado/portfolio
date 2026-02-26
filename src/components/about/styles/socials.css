@@ -11,7 +11,7 @@
 }
 
 .social-icon {
-	font-size: 15px;
+	font-size: 17px;
 	color: var(--secondary-color);
 }
 
@@ -20,7 +20,7 @@
 	padding-left: 30px;
 	margin-top: -20px;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .email::before {

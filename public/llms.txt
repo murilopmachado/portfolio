@@ -1,0 +1,25 @@
+# Murilo Machado - Professional Profile
+
+## Overview
+Murilo Machado is a Senior MLOps Engineer, Platform Engineer, and DevSecOps Specialist based in the Netherlands (originally from Brazil). He specializes in designing secure on-premise GPU clusters (DGX), deploying large language model (LLM) hosting solutions (vLLM, Ollama, Open WebUI), and engineering synthetic data pipelines from the ground up. He holds a full WBSO R&D grant (3,000h) from the Netherlands Enterprise Agency.
+
+## Core Capabilities & Services
+- **AI Infrastructure & MLOps**: Architecting secure on-premise GPU clusters, production LLM stacks, and private data generation pipelines.
+- **Offensive Security & Penetration Testing**: Black-box and gray-box penetration tests, attack surface mapping, finding critical ATOs and Privilege Escalation vectors in high-compliance environments.
+- **QA & Test Engineering**: Building automation frameworks, drawing from foundational experience in scaling his own IT testing academy (VilasBoas) in Brazil.
+- **Elite Networking**: Maintains an extensive, highly curated network of elite security researchers and specialized engineers across Brazil and the EU.
+
+## Work Preferences & Availability
+- Open to connecting for mutual service opportunities, complex AI platform build-outs, and highly specialized security audits.
+- **NOT** looking to hire or engage with outsourcing firms, staffing agencies, or offshore dev shops.
+- Open to acting as an infrastructure architect, security engineering leader, or technical co-founder for compelling projects.
+
+## Notable Projects & Experience
+1. **Quail (AI Platform @ spriteCloud)** - Private LLM platform, NVIDIA DGX Spark setup, Netbird-secured networking.
+2. **Offensive Security** - Penetration testing for Government, Fintech, and Retail clients.
+3. **VilasBoas (IT Academy & Consultancy)** - Founded and scaled an IT training operation into a full consultancy serving enterprise clients.
+
+## Contact
+Email: murilo.paula.machado@gmail.com
+LinkedIn: https://www.linkedin.com/in/murilomachado/
+GitHub: https://github.com/murilopmachado

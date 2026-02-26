@@ -2,36 +2,78 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Murilo Machado — Senior MLOps, Platform Engineer and DevSecOps with 15+ years of experience building secure AI infrastructure, GPU clusters, and synthetic data pipelines.",
+		keywords: [
+			"Murilo Machado",
+			"MLOps",
+			"Platform Engineer",
+			"DevSecOps",
+			"AI Infrastructure",
+			"GPU Cluster",
+			"DGX",
+			"vLLM",
+			"Open WebUI",
+		],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"About Murilo Machado — Senior MLOps & Platform Engineer based in the Netherlands, with expertise in AI infrastructure, DevSecOps, Kubernetes, and LLM deployment.",
+		keywords: [
+			"Murilo Machado",
+			"MLOps",
+			"Platform Engineer",
+			"DevSecOps",
+			"Netherlands",
+			"AI Infrastructure",
+			"DGX",
+			"vLLM",
+			"WBSO",
+		],
 	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Articles by Murilo Machado on MLOps, AI infrastructure, DevSecOps, Platform Engineering, and synthetic data generation.",
+		keywords: [
+			"Murilo Machado",
+			"MLOps",
+			"AI",
+			"DevSecOps",
+			"Platform Engineering",
+			"Articles",
+		],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Projects by Murilo Machado — business ventures, open-source tools including aigate (AI security sandbox), SpecHammer (Kubernetes testing), yankrun, structlint, and more.",
+		keywords: [
+			"Murilo Machado",
+			"Open Source",
+			"Go",
+			"Kubernetes",
+			"aigate",
+			"SpecHammer",
+			"DevSecOps",
+			"MLOps",
+		],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Get in touch with Murilo Machado — open to consulting, collaboration, and new opportunities in MLOps, Platform Engineering, and DevSecOps.",
+		keywords: [
+			"Murilo Machado",
+			"Contact",
+			"MLOps",
+			"Platform Engineering",
+			"Consulting",
+		],
 	},
 ];
 

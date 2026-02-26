@@ -2,7 +2,7 @@
 
 .project {
 	mix-blend-mode: normal;
-	border-radius: 20px;
+	border-radius: 8px;
 	opacity: 0.8;
 	height: 100%;
 }
@@ -12,7 +12,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: #1a1a1a;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -22,8 +22,45 @@
 	transition: color 0.3s ease-in-out;
 }
 
+.project:hover .project-title {
+	color: #ffffff;
+}
+
+.project:hover .project-description {
+	color: #c0c0c0;
+}
+
 .project-container {
 	padding: 30px;
+}
+
+.project-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.project-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 3px 9px;
+	border-radius: 5px;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.badge-public {
+	background: rgba(16, 185, 129, 0.12);
+	border: 1px solid rgba(16, 185, 129, 0.4);
+	color: #34d399;
+}
+
+.badge-private {
+	background: rgba(234, 78, 0, 0.1);
+	border: 1px solid rgba(234, 78, 0, 0.4);
+	color: #ea7a40;
 }
 
 .project-logo {
@@ -55,9 +92,15 @@
 	padding-top: 20px;
 }
 
+.project-link--private {
+	opacity: 0.4;
+	cursor: default;
+	pointer-events: none;
+}
+
 .project-link-icon {
 	padding-left: 5px;
-	font-size: 13px;
+	font-size: 17px;
 }
 
 .project-link-text {

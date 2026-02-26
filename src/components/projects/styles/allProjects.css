@@ -15,6 +15,27 @@
 	overflow: hidden;
 }
 
+.all-projects-container--full-row .all-projects-project {
+	width: 100%;
+}
+
+.projects-section-label {
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--link-color);
+	padding-bottom: 4px;
+	border-bottom: 1px solid var(--tertiary-color);
+	margin-top: 10px;
+}
+
+.projects-section-divider {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: none;
+}
+
 @media (max-width: 600px) {
 	.all-projects-project {
 		width: calc(100% / 2);

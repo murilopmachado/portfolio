@@ -1,5 +1,38 @@
 @import "../../../data/styles.css";
 
+.works {
+	width: 100%;
+}
+
+.skills-cloud {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding-bottom: 12px;
+}
+
+.skill-tag {
+	display: inline-flex;
+	align-items: center;
+	padding: 5px 11px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	white-space: nowrap;
+	cursor: default;
+	transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+	opacity: 0.85;
+	font-family: var(--primary-font);
+}
+
+.skill-tag:hover {
+	transform: translateY(-2px) scale(1.04);
+	opacity: 1;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+/* legacy — keep so nothing breaks if .work is referenced elsewhere */
 .works-body {
 	margin-bottom: 10px;
 }
@@ -14,7 +47,7 @@
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
-	outline: 6px solid white;
+	outline: 6px solid #1a1a1a;
 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
 }
 
